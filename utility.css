@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    
+
+}
+
+.rounded{
+    border-radius: 9px;
+}
+.red-border{
+    border: 2px solid red;
+}
+.black-bg{
+    background-color: rgb(9, 9, 9);
+    color: rgb(172, 172, 172);
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: rgb(9, 9, 9);;
+    color: white;
+}
+.bg-white{
+    background-color: white;
+    color: black;
+}
+.bg-grey{
+    background-color: rgb(18,18,18);
+}
+.invert{
+    filter: invert(1);
+}
+.opacity{
+    opacity: 0.6;
+}
+.m1{
+    margin: 7px;
+}
+.p1{
+    padding: 22px;
+}
+
+.hover:hover{
+    opacity: 1;
+    transition: hover .5s;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 6px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* Color of the scroll thumb */
+    border-radius: 10px; /* Rounded corners of the thumb */
+    /* border: 3px solid #646464; Border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(24 24 24); /* Color of the thumb on hover */
+}
+
+
+  
+  
+  

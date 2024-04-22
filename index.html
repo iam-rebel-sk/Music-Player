@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotiFy Clone | Listen your favourite music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left ">
+            <div class="close pointer">
+                <img class="invert " src="svgs/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded p1 roboto-medium  ">
+                <div class="logo pointer "><img class="invert" src="svgs/logo.svg" alt="SpotiFy"></div>
+                <ul>
+                    <li class="item-center pointer "><img class="invert" src="svgs/home.svg" alt="home">Home</li>
+                    <li class="item-center pointer "><img class="invert" src="svgs/serach.svg" alt="serach">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded p1 roboto-medium  ">
+                <div class="heading item-center">
+                    <img class="invert hover pointer opacity " src="svgs/playlist.svg" alt="playlist" srcset="">
+                    <h2 class=" pointer opacity">Your Library</h2>
+                    <img class="invert plusbutton pointer opacity " src="svgs/plus.svg" alt="" srcset="">
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer roboto-regular">
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="right rounded">
+            <div class="header flex ">
+                <div class="nav">
+                    <img class="invert pointer hamburger" src="svgs/hamburger.svg" alt="">
+                    <img class="invert image" src="svgs/left-arrow.svg" alt="" srcset="">
+                    <img class="invert image" src="svgs/right-arrow.svg" alt="" srcset="">
+                </div>
+                <div class="btn">
+                    <button class="signup-btn roboto-bold opacity bg pointer">Sign up</button>
+                    <button class="login-btn roboto-bold white-bg pointer">Log in</button>
+                </div>
+            </div>
+            <div class="spotify spotify-artist roboto-bold">
+                <div>
+                    <h2>Popular artist</h2>
+                    <div class="card_container">
+                     
+
+                    </div>
+
+
+                    <div>
+                        <h2>Spotify Album</h2>
+                        <div class="card_container2">
+                            <div class="card roboto-regular">
+                                <div class="play">
+                                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                                        class="Svg-sc-ytk21e-0 bneLcE">
+                                        <path
+                                            d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <img class="card-img" aria-hidden="false" draggable="false" loading="lazy"
+                                    src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                                <h3>Album Name</h3>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="playbar invert">
+                        <div class="seekbar pointer">
+                            <div class="circle pointer">
+
+                            </div>
+                        </div>
+                        <div class="songinfo roboto-regular invert"></div>
+                        <div class="songbutton pointer">
+                            <img id="previous" src="svgs/prev-song.svg" alt="">
+                            <img id="play" src="svgs/play-song.svg" alt="" srcset="">
+                            <img id="next" src="svgs/next-song.svg" alt="" srcset="">
+                        </div>
+                        <div class="songtime  roboto-regular invert"></div>
+                        <div class="vloume pointer">
+                            <img src="svgs/volume.svg" alt="" srcset="">
+                            <div class="range ">
+                                <input  type="range" name="vloume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

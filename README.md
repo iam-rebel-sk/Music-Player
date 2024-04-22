@@ -22,7 +22,7 @@ This project is a web-based clone of the popular music streaming service, Spotif
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/SpotiFy-Clone.git
+   git clone [https://github.com/iam-rebel-sk/Music-Player.git]
    
 2. Navigate to the project directory:
    
